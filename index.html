@@ -8,52 +8,41 @@
     <title>Momentum</title>
   </head>
   <body>
-    <div id="main-wrap">
-      <div class="column">
-        <div class="title">
-          <h1>Brooklyn 99</h1>
-        </div>
-        <div class="post">
-          <div class="post__pic"></div>
-          <div class="post__text" id="quote">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="clock-container">
-          <h2 id="clock">00:00:00</h2>
-        </div>
-        <div class="login-container">
-          <form class="hidden" id="login-form">
-            <input
-              required
-              maxlength="15"
-              type="text"
-              placeholder="What is your name?"
-            />
-            <input type="submit" value="Log In" />
-          </form>
-          <h1 class="hidden" id="greeting"></h1>
-        </div>
-        <div class="todo-container">
-          <form id="todo-form">
-            <input type="text" required placeholder="Write A To Do" />
-          </form>
-          <ul id="todo-list"></ul>
-        </div>
-        <div id="weather">
-          <span></span>
-          <span></span>
-        </div>
-      </div>
+    <div class="clock-container">
+      <h2 id="clock">00:00:00</h2>
     </div>
+    <div class="login-container">
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+      <h1 class="hidden" id="greeting"></h1>
+    </div>
+    <div class="todo-container">
+      <form id="todo-form">
+        <input type="text" required placeholder="Write A To Do" />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="quote">
+      <span></span><br />
+      <span></span>
+    </div>
+
     <script src="quotes.js"></script>
     <script src="greeting.js"></script>
     <script src="clock.js"></script>
-    <script src="backgrounds.js"></script>
+    <script src="background.js"></script>
     <script src="todo.js"></script>
-    <script src="weathers.js"></script>
+    <script src="weatherw.js"></script>
   </body>
 </html>

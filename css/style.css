@@ -1,41 +1,32 @@
-@import "reset.css";
 @import "title.css";
+@import "todo.css";
 
 .hidden {
   display: none;
 }
 
-#main-wrap {
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-}
-
-.column:first-child {
-  width: 70%;
-}
-
-img {
-  width: 100%;
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
+  width: 100%;
+  z-index: -2;
 }
 
-.column:last-child {
+body {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.column div:first-child {
-  height: 20%;
-}
-
-.column div:nth-child(2) {
-  height: 20%;
-}
-
-.column div:nth-child(2) {
-  height: 40%;
-}
-.column div:last-child {
-  height: 20%;
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 15px;
 }
