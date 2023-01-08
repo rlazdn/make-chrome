@@ -1,0 +1,41 @@
+@import "reset.css";
+@import "title.css";
+
+.hidden {
+  display: none;
+}
+
+#main-wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column:first-child {
+  width: 70%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.column:last-child {
+  flex-direction: column;
+  align-items: center;
+}
+
+.column div:first-child {
+  height: 20%;
+}
+
+.column div:nth-child(2) {
+  height: 20%;
+}
+
+.column div:nth-child(2) {
+  height: 40%;
+}
+.column div:last-child {
+  height: 20%;
+}
